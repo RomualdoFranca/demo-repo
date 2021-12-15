@@ -1,0 +1,122 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#topo {
+    /* border: 2px solid gray; */
+}
+
+#navbar {
+
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 25px;
+}
+#home {
+    font-family: 'Bokor', cursive;    
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid rgb(243, 9, 9);
+}
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    width: 290px;
+    height: 20px;
+    /* border: 2px solid rgb(243, 9, 9); */
+    position: absolute;
+    top: 8em;
+    left: 30em;
+    background-color: white;
+}
+/* Div principal contendo as materias*/
+#conteudo { 
+    border: 2px solid rgb(243, 9, 9);
+    margin-top: 80px;
+    width: 1400px;
+    position: absolute;
+    left: 2em;
+
+}
+/*Dividindo o conteudo em colunas
+  Propriedades da coluna*/
+#col-left { 
+    border: 3px solid rgba(3, 204, 161, 0.849);
+    width: 320px;
+    margin: 5px;
+    float: left;
+}
+.news1-l, .news2-l, .news3-l, .news4-l, .news5-l {
+    border: 1px solid rgba(140, 3, 204, 0.849);
+
+
+}
+
+.news1-l, .news2-l, .news3-l, .news4-l, .news5-l, h1, h2 {
+    font-family: 'Prata', serif;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.news1-l, .news2-l, .news3-l, .news4-l, .news5-l, p a {
+    color: rgba(0, 0, 0, 0.685);
+    text-decoration: none;
+ }
+
+
+#col-center {
+    border: 3px solid rgba(3, 204, 161, 0.849);
+    width: 673px;
+    margin: 5px;
+    padding-left: 25px;
+    float: left;
+}
+
+/* .news1-c, .news2-c, .news3-c, .news4-c, .news5-c {
+    border: 1px solid rgba(140, 3, 204, 0.849);
+
+}
+.news1-c, .news2-c, .news3-c, .news4-c, .news5-c, h1, h2, p, a {
+    font-family: 'Prata', serif;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.news1-c, .news2-c, .news3-c, .news4-c, .news5-c, p a {
+    color: rgba(0, 0, 0, 0.685);
+    text-decoration: none;
+ } */
+
+ .news1-c {
+    border: 1px solid rgba(140, 3, 204, 0.849);
+    font-family: 'Prata', serif;
+    color: black;
+    margin-bottom: 15px;
+    display: inline;
+ }
+
+
+#col-right {
+    border: 3px solid rgba(3, 204, 161, 0.849);
+    width: 320px;
+    margin: 5px;
+    float: left;
+}
+
+.news1-r, .news2-r, .news3-r, .news4-r, .news5-r {
+    border: 1px solid rgba(140, 3, 204, 0.849);
+}
+
+.news1-r, .news2-r, .news3-r, .news4-r, .news5-r, h1, h2 {
+    font-family: 'Prata', serif;
+    color: black;
+    margin-bottom: 15px;
+}
+
+
+
+.clear {
+    clear: both;
+}
